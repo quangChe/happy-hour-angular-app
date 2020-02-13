@@ -7,13 +7,13 @@ import { VendorCardComponent } from './vendor-card/vendor-card.component';
 
 @NgModule({
   declarations: [
-
-  VendorCardComponent],
+  VendorCardComponent
+],
   imports: [
     CommonModule
   ],
   exports: [
-
+    VendorCardComponent
   ]
 })
 export class LandingPageModule { }
